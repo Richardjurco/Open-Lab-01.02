@@ -1,23 +1,13 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PROJEKTIK
+namespace Open_Lab_01._02
 {
-    internal class Program
+    public class Exercise
     {
-        static void Main(string[] args)
+        public int Sum(int a, int b)
         {
-           
-            Console.Write("Napiš čislo: ");
-            int čislo1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Napiš 2 čislo: ");
-            int čislo2 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("vysledok je :  ");
-            Console.WriteLine( čislo1 + čislo2);
+            return a + b;
+
         }
     }
 }
